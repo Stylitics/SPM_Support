@@ -20,10 +20,10 @@ let package = Package(
         .target(
             name: "StyliticsSPM"),
         .binaryTarget(name: "StyliticsData",
-                      path: "StyliticsData.xcframework"
+                      path: "Source/StyliticsData.xcframework"
                      ),
         .binaryTarget(name: "StyliticsUI",
-                      path: "StyliticsUI.xcframework"
+                      path: "Source/StyliticsUI.xcframework"
                      ),
     ]
 )
